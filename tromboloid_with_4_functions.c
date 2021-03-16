@@ -11,24 +11,24 @@ h=height(h);
 d=depth(d);
 b=breadth(b);
 v=volume(h,b,d);
-printf(“volume:%d”,v);
+printf("volume:%d",v);
 }
 int height(int h)
 {
-printf(“enter the value of height:\n”);
-scanf(“%d”,&h);
+printf("enter the value of height:\n");
+scanf("%d",&h);
 return h;
 }
 int depth(int d)
 {
-printf(“enter the value of depth:\n”);
-scanf(“%d”,&d);
+printf("enter the value of depth:\n");
+scanf("%d",&d);
 return d;
 }
 int breadth(int b)
 {
-printf(“enter the value of breadth:\n”);
-scanf(“%d”,&b);
+printf("enter the value of breadth:\n");
+scanf("%d",&b);
 return b;
 }
 int volume(int h, int d, int b)
